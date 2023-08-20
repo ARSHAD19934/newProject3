@@ -18,6 +18,13 @@ public class Demo {
 	{
 		//System.out.println("done");
 		Reporter.log("Very Good ",true);
+
+	}
+	
+	@Test
+	public void createDemo3()
+	{
+		Reporter.log("excellent", true);
 	}
 
 }
