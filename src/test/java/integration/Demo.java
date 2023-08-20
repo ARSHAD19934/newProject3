@@ -1,5 +1,6 @@
 package integration;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Demo {
@@ -8,7 +9,8 @@ public class Demo {
 	
 	public void createDemo()
 	{
-		System.out.println("done");
+		//System.out.println("done");
+		Reporter.log("good",true);
 	}
 
 }
